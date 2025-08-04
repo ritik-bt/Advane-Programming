@@ -1,0 +1,81 @@
+/* General styles for the application */
+.root {
+    -fx-font-family: "Arial";
+    -fx-background-color: #f4f4f4;
+}
+
+/* VBox container styles */
+VBox {
+    -fx-background-color: #ffffff;
+    -fx-padding: 20px;
+    -fx-spacing: 15px;
+    -fx-border-radius: 8px;
+    -fx-background-radius: 8px;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.1), 10, 0, 0, 5);
+}
+
+/* Label styles */
+.label {
+    -fx-font-size: 14px;
+    -fx-text-fill: #333333;
+}
+
+.label-title {
+    -fx-font-size: 28px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #0056b3;
+    -fx-padding-bottom: 10px;
+}
+
+/* TextField and PasswordField styles */
+.text-field, .password-field {
+    -fx-pref-height: 35px;
+    -fx-border-color: #cccccc;
+    -fx-border-radius: 5px;
+    -fx-padding: 5px 10px;
+}
+
+.text-field:focused, .password-field:focused {
+    -fx-border-color: #007bff;
+    -fx-effect: innershadow(gaussian, rgba(0,123,255,0.2), 5, 0, 0, 0);
+}
+
+/* Button styles */
+.button {
+    -fx-background-color: #007bff;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-padding: 8px 18px;
+    -fx-border-radius: 5px;
+    -fx-cursor: hand;
+}
+
+.button:hover {
+    -fx-background-color: #0056b3;
+}
+
+.button:pressed {
+    -fx-background-color: #004085;
+}
+
+/* HBox for buttons */
+HBox {
+    -fx-spacing: 10px;
+    -fx-alignment: center;
+}
+
+/* Message Label (for errors/feedback) */
+.label-message {
+    -fx-text-fill: #dc3545;
+    -fx-font-size: 13px;
+    -fx-font-weight: bold;
+}
+
+/* GridPane for form layout */
+GridPane {
+    -fx-hgap: 10px;
+    -fx-vgap: 10px;
+    -fx-alignment: center;
+}
+
+

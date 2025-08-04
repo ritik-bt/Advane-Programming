@@ -1,0 +1,7 @@
+CS101,Introduction to Programming,3
+MA201,Calculus I,4
+PH101,Physics I,3
+HI101,World History,3
+1212,BBA,978
+ITS66704,AdvanceProgramming,4
+ITS66604,MLPC,4

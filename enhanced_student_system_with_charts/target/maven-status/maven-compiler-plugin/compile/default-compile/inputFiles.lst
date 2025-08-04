@@ -1,0 +1,16 @@
+/home/ubuntu/enhanced_student_system_with_charts/src/main/java/module-info.java
+/home/ubuntu/enhanced_student_system_with_charts/src/main/java/org/example/studentcourseregistrationsystem/App.java
+/home/ubuntu/enhanced_student_system_with_charts/src/main/java/org/example/studentcourseregistrationsystem/controller/ChartsController.java
+/home/ubuntu/enhanced_student_system_with_charts/src/main/java/org/example/studentcourseregistrationsystem/controller/DashboardController.java
+/home/ubuntu/enhanced_student_system_with_charts/src/main/java/org/example/studentcourseregistrationsystem/controller/LoginController.java
+/home/ubuntu/enhanced_student_system_with_charts/src/main/java/org/example/studentcourseregistrationsystem/controller/RegisterCourseController.java
+/home/ubuntu/enhanced_student_system_with_charts/src/main/java/org/example/studentcourseregistrationsystem/controller/RegisterUserController.java
+/home/ubuntu/enhanced_student_system_with_charts/src/main/java/org/example/studentcourseregistrationsystem/controller/StudentProfileController.java
+/home/ubuntu/enhanced_student_system_with_charts/src/main/java/org/example/studentcourseregistrationsystem/controller/ViewCoursesController.java
+/home/ubuntu/enhanced_student_system_with_charts/src/main/java/org/example/studentcourseregistrationsystem/model/Course.java
+/home/ubuntu/enhanced_student_system_with_charts/src/main/java/org/example/studentcourseregistrationsystem/model/Student.java
+/home/ubuntu/enhanced_student_system_with_charts/src/main/java/org/example/studentcourseregistrationsystem/model/User.java
+/home/ubuntu/enhanced_student_system_with_charts/src/main/java/org/example/studentcourseregistrationsystem/service/CourseService.java
+/home/ubuntu/enhanced_student_system_with_charts/src/main/java/org/example/studentcourseregistrationsystem/service/StudentService.java
+/home/ubuntu/enhanced_student_system_with_charts/src/main/java/org/example/studentcourseregistrationsystem/service/UserService.java
+/home/ubuntu/enhanced_student_system_with_charts/src/main/java/org/example/studentcourseregistrationsystem/util/ChartDataPrepare.java

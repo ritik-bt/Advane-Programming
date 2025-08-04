@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.layout.GridPane?>
+
+<VBox alignment="TOP_CENTER" spacing="20.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.studentcourseregistrationsystem.controller.DashboardController" stylesheets="@style.css">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+    <Label text="Welcome to the Student Dashboard!" styleClass="label-title">
+        <font>
+            <Font size="28.0" />
+        </font>
+    </Label>
+    <Label fx:id="welcomeMessageLabel" text="" styleClass="label-message" />
+
+    <!-- Student Information Section -->
+    <VBox alignment="CENTER" spacing="10.0" styleClass="info-section">
+        <Label text="Student Information" styleClass="section-title">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Label>
+        <GridPane hgap="10.0" vgap="5.0" alignment="CENTER">
+            <Label text="Name:" GridPane.columnIndex="0" GridPane.rowIndex="0" styleClass="info-label" />
+            <Label fx:id="studentNameLabel" text="" GridPane.columnIndex="1" GridPane.rowIndex="0" styleClass="info-value" />
+            
+            <Label text="Phone Number:" GridPane.columnIndex="0" GridPane.rowIndex="1" styleClass="info-label" />
+            <Label fx:id="studentPhoneLabel" text="" GridPane.columnIndex="1" GridPane.rowIndex="1" styleClass="info-value" />
+            
+            <Label text="Registered Courses:" GridPane.columnIndex="0" GridPane.rowIndex="2" styleClass="info-label" />
+            <Label fx:id="registeredCoursesLabel" text="" GridPane.columnIndex="1" GridPane.rowIndex="2" styleClass="info-value" />
+        </GridPane>
+    </VBox>
+
+    <HBox alignment="CENTER" spacing="15.0">
+        <Button onAction="#handleProfileButton" text="Student Profile" prefWidth="150" prefHeight="40" styleClass="button" />
+        <Button onAction="#handleRegisterCourseButton" text="Register Course" prefWidth="150" prefHeight="40" styleClass="button" />
+        <Button onAction="#handleViewCoursesButton" text="View Courses" prefWidth="150" prefHeight="40" styleClass="button" />
+        <Button onAction="#handleChartsButton" text="View Charts" prefWidth="150" prefHeight="40" styleClass="button" />
+    </HBox>
+
+    <VBox alignment="BOTTOM_CENTER" spacing="10.0" VBox.vgrow="ALWAYS">
+        <Button onAction="#handleLogoutButton" text="Logout" prefWidth="100" prefHeight="30" styleClass="button" />
+    </VBox>
+</VBox>

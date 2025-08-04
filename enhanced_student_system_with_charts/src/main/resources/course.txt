@@ -1,0 +1,5 @@
+CS101,Introduction to Programming,3
+MA201,Calculus I,4
+PH101,Physics I,3
+HI101,World History,3
+EC301,Microeconomics,3
